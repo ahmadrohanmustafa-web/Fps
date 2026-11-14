@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "voidfps",
+  "version": "${version}",
+  "name": "VOID FPS",
+  "description": "Performance toolkit for low-end PCs. Release 0.1.0 contains the opt-in benchmark recorder only; no rendering optimizations are active yet.",
+  "authors": ["VOID FPS"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.voidfps.VoidFpsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
