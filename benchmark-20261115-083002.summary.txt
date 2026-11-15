@@ -1,0 +1,2 @@
+VOID FPS benchmark summary (warm-up 10s excluded)
+samples=142 avgFps=59.2 minFps=4 maxFps=121 p1Fps=12 p5Fps=26 stdDevFps=23.41
